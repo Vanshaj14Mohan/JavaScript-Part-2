@@ -18,8 +18,11 @@ console.log("Index of x is",code.indexOf("x"));
 
 //Method Chaining
 let text = "  hello  ";
-console.log(text);
+// console.log(text);
 // let newText = text.trim();
 // console.log("After trim:", newText);
-let newText = text.toUpperCase();
-console.log("After Uppercase:", newText);
+// let newText = text.toUpperCase();
+// console.log("After Uppercase:", newText);
+//easy way to do it:
+let newText = text.trim().toUpperCase();
+console.log("After Method Chaining:",newText);
