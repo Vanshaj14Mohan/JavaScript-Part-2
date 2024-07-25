@@ -29,5 +29,7 @@ console.log("After Method Chaining:",newText);
 
 //Slice Method
 let slc = "Codinglove"
-let newSlc = slc.slice(5);
-console.log(newSlc);
+console.log(slc.slice(5));
+console.log(slc.slice(0,6));
+console.log(slc.slice(-2));
+console.log(slc.slice(-4));
