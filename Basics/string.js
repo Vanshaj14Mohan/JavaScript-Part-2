@@ -26,3 +26,8 @@ let text = "  hello  ";
 //easy way to do it:
 let newText = text.trim().toUpperCase();
 console.log("After Method Chaining:",newText);
+
+//Slice Method
+let slc = "Codinglove"
+let newSlc = slc.slice(5);
+console.log(newSlc);
