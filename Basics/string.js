@@ -15,3 +15,11 @@ console.log("Index of g is",code.indexOf("g"));
 console.log("Index of love is",code.indexOf("love"));
 console.log("Index of d is",code.indexOf("d"));
 console.log("Index of x is",code.indexOf("x"));
+
+//Method Chaining
+let text = "  hello  ";
+console.log(text);
+// let newText = text.trim();
+// console.log("After trim:", newText);
+let newText = text.toUpperCase();
+console.log("After Uppercase:", newText);
