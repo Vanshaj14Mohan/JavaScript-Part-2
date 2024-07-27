@@ -33,3 +33,22 @@ console.log(slc.slice(5));
 console.log(slc.slice(0,6));
 console.log(slc.slice(-2));
 console.log(slc.slice(-4));
+
+//Replace and repeat method
+console.log("Replace method:")
+newCode = code.replace("love", "do");
+console.log(newCode);
+console.log(newCode.repeat(5)); //repeats the value 5 times.
+
+
+
+
+
+
+
+
+
+
+
+
+
