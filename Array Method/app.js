@@ -18,3 +18,19 @@ let followers = ["a", "b", "c", "d"];
 console.log("current followers",followers);
 let blocked = followers.shift("a");
 console.log("blocked one",blocked);
+
+//indexOf & includes method
+//for indexOf -> will print the indexOf the values
+let primary = ["red", "green", "blue", "yellow"]
+console.log(primary.indexOf("green"));
+console.log(primary.indexOf("yellow"));
+console.log(primary.indexOf("pink"));
+//For includes method
+//-> Will show the included values
+console.log(primary.includes("green"))//true
+console.log(primary.includes("pink"))//false
+
+//Concatenate & Reverse case
+let secondary = ["purple", "peach", "white", "aqua"]
+mix = primary.concat(secondary);
+console.log("Concatenated result:", mix);
