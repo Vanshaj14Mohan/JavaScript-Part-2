@@ -41,3 +41,27 @@ console.log(secondary); //array will be changed
 //to tackle this
 rev_again = secondary.reverse()
 console.log("Original array:", rev_again);
+
+//Slice and Splice method
+half = secondary.slice();
+console.log(half);
+test_case = secondary.slice(2,3); //last index is not included
+console.log(test_case);
+last_one = secondary.slice(-2);
+console.log("Last two values",last_one); //last two values 
+
+//Splice -> removes/replaces/add elements in place, One in all tool can say
+//splice(start, deleteCount, item0...item N)
+let colors = ["red", "green", "blue", "orange", "yellow", "pink", "white"]
+check = colors.splice(4);
+console.log(check);
+console.log(colors);
+remove = colors.splice(0,1);
+console.log(remove);
+console.log(colors);
+add = colors.splice(1,2, "black", "gray")
+console.log(add);
+console.log(colors);
+replace = colors.splice(0,1, "Thar") //replace the value at 0 index
+console.log(replace);
+console.log(colors);
