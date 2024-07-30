@@ -34,3 +34,10 @@ console.log(primary.includes("pink"))//false
 let secondary = ["purple", "peach", "white", "aqua"]
 mix = primary.concat(secondary);
 console.log("Concatenated result:", mix);
+//to reverse the array position
+rev = secondary.reverse();
+console.log("Reversed case for secondary:", rev);
+console.log(secondary); //array will be changed
+//to tackle this
+rev_again = secondary.reverse()
+console.log("Original array:", rev_again);
