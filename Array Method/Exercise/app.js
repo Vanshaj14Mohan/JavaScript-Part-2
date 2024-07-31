@@ -23,3 +23,8 @@ console.log(test);
 add = console.log(test.splice(1,0, "June"));
 console.log(add)
 console.log(test);
+
+//3-> Return the index of "JavaScript" from the given array if it was reversed.
+lang = ["c", "c++", "html", "JavaScript", "Python", "Java", "c#", "sql"]
+rev = console.log(lang.reverse().indexOf("JavaScript"));
+console.log("Index of JavaScript:",rev);
