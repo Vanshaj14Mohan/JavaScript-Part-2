@@ -18,4 +18,8 @@ console.log("After test case",month)
 //final: ["july", "june", "march", "august"]
 
 test = ["january", "july", "march", "august"]
-console.log()
+pos = console.log(test.splice(0,1))
+console.log(test);
+add = console.log(test.splice(1,0, "June"));
+console.log(add)
+console.log(test);
