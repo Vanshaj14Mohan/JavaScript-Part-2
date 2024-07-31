@@ -13,3 +13,9 @@ console.log("Before test", month);
 console.log(month[0] = "july", month[1] = "june");
 console.log("After test case",month)
 
+//2-> For the given start state of an array, change it to final form using splice.
+// start: ["january", "july", "march", "august"]
+//final: ["july", "june", "march", "august"]
+
+test = ["january", "july", "march", "august"]
+console.log()
