@@ -65,3 +65,8 @@ console.log(colors);
 replace = colors.splice(0,1, "Thar") //replace the value at 0 index
 console.log(replace);
 console.log(colors);
+
+//sort 
+console.log("For sort:", colors.sort());
+let numbers = [1,4,3,5,7,2,9]
+console.log("Numbers sort:", numbers.sort());
