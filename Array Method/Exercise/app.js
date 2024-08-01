@@ -28,3 +28,7 @@ console.log(test);
 lang = ["c", "c++", "html", "JavaScript", "Python", "Java", "c#", "sql"]
 console.log("Index of Javascript:",lang.reverse().indexOf("JavaScript"));
 // console.log("Index of JavaScript:",rev);
+
+//4-> Create a nested array to show a tic-tac-toe game.
+let task = [["X", null, "O"], [null, "X", null], ["O", null, "X"]];
+console.log(task);
