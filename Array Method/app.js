@@ -70,3 +70,12 @@ console.log(colors);
 console.log("For sort:", colors.sort());
 let numbers = [1,4,3,5,7,2,9]
 console.log("Numbers sort:", numbers.sort());
+
+//Nested Arrays
+let nested = [[1,2], [3,4], [5,6]]; 
+console.log(nested);
+console.log(nested[0], nested[1], nested[2]);
+//For individual values.
+console.log(nested[0][0], nested[0][1])
+console.log(nested[1][0], nested[1][1])
+console.log(nested[2][0], nested[2][1])
