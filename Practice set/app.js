@@ -43,6 +43,16 @@ else{
 }
 
 //7 -> Wap to strip leading and trailing spaces from a string.
-let x = prompt("Enter a string");
-console.log("Original String", `${x}`);
-console.log("New string", `${str.trim()}`);
+let str = prompt("Enter a string");
+console.log(`Original String, ${str}`);
+console.log(`New string, ${str.trim()}`);
+
+//8 -> Wap to check if an element exists in an array or not.
+let check = ["hello", "a", 40, 75, 89, 78, 94];
+let item = 89;
+if(check.indexOf(item) != -1){
+    console.log("element is present");
+}
+else{
+    console.log("element is not present");
+}
